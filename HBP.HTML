@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hunter, Bear, Princess</title>
+	<link rel="stylesheet" type="text/css" href="RPS.CSS">
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One|Uncial+Antiqua&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div>
+		<h1>Let's Play!</h1>
+	</div>
+	<div>
+		<h2 id="headertext1">Choose a Player:</h2>
+		
+	</div>
+	
+  <div id="mainFrameOne" class="images">
+    
+    <div class="hunter">
+    	<button onclick="myFunction()"><img class="img" src= "https://previews.123rf.com/images/saphatthachat/saphatthachat1805/saphatthachat180500171/102007681-vector-pixel-art-hunter-isolated-cartoon.jpg"></button>
+    	<h4>Hunter</h4>
+    </div>
+    <div class="bear">
+    	<button onclick="myFunction()"><img class="img" src="http://pixelartmaker.com/art/d2dc9caaef73f10.png"></button>
+    	<h4>Bear</h4>
+    </div>
+    <div class="princess">
+    	<button onclick="myFunction()"><img class="img" src="src img/pixel-art-princess-vector-19072212.jpg"></button>
+		<h4>Princess</h4>
+    </div>
+  </div>
+
+  <div id="mainFrameTwo" style="display:none;" class="resultbox">
+  	 <p> Player: Computer:</p>
+  	 <div class="results">
+  	</div>
+  </div>
+  <div style="display:block;"> 
+  	<a href="RPS.HTML" id="headertext2" style="display:none;">Try Again!</a>
+  </div>
+
+
+  <!-- <div id="trees">
+	<img src="https://art.pixilart.com/49686bd566577a2.png">
+</div> -->
+
+<script type="text/javascript" src="RPS.JS"></script>
+<script>
+function myFunction() { 
+	document.getElementById("mainFrameOne").style.display="none"; 
+	document.getElementById("headertext1").style.display="none";
+	document.getElementById("mainFrameTwo").style.display="block"; 
+	document.getElementById("headertext2").style.display="block";
+}
+</script>
+</body>
+</html>  

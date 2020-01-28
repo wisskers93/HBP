@@ -1,0 +1,143 @@
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+.img {
+  height: 100px;
+  width 100px;
+  margin: 2em 2em 0em 2em;
+  animation-play-state: paused; 
+}
+
+
+.img:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+  animation: bounce .25s infinite alternate;
+  -webkit-animation: bounce .25s infinite alternate;
+}
+
+
+.images{
+  display:inline-flex;
+  flex-wrap: wrap;
+  background-color: white;
+  /*margin: auto 5em 5em 5em;*/
+  /*padding: 2em;*/
+  border-radius: 25px;
+  border: 2px solid lightgrey;
+  padding: 10px;
+  margin-top: 2em;
+      
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-family: 'Uncial Antiqua', cursive;
+	background-image: url("https://img.itch.zone/aW1hZ2UvMTE1OTIxLzUzNjE1OS5wbmc=/original/Xg%2BRuo.png");
+	background-repeat: no-repeat;
+	background-size: 100% 50em;
+	/*background: rgb(214,233,148);
+background: radial-gradient(circle, rgba(214,233,148,1) 0%, rgba(13,84,48,1) 100%);*/
+}
+
+h4 {
+	/*display: inline-block;*/
+	color:black;
+	}
+
+.hunter:hover, .princess:hover, .bear:hover{
+	
+	font-family: 'Sigmar One', cursive;
+}
+
+/*#trees {
+	width:100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	margin: -8em;
+	padding: -10em;	
+}
+*/
+
+h1 {
+	font-size: 400%;
+	margin: 1em;
+	text-decoration: underline;
+}
+
+p {
+	color: black;
+	font-size: 150%;
+	display: inline-flex;
+	text-align: center;
+	white-space: nowrap;
+	margin-bottom: -50px;
+	word-spacing: 3em;
+}
+
+a {
+	/*font-size: 200%;
+	margin-top: 2em;
+	margin-bottom: 1em;*/
+	background-color: #555555; 
+  border: none;
+  color: white;
+  padding: 18px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 16px;
+    width: 10em;
+    margin: 0 auto;
+  
+
+}
+
+a:visited {
+	color: white;
+}
+
+.resultbox {
+	color: black;
+	background-color: white;
+   	border-radius: 25px;
+ 	border: 2px solid lightgrey;
+ 	padding: 10px;
+ 	width:30em;
+ 	display: inline-block;
+ 	margin: 2em auto;
+
+
+	}
+
+button {
+
+padding: 10px;
+border: none;
+background: none;
+display:block;
+margin: 0 auto;
+ 	text-align: center;
+}
+
+.results{
+	margin: -1em;
+	margin-bottom: 1em;
+}
