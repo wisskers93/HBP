@@ -1,10 +1,12 @@
 const buttons = document.querySelectorAll("button");
 //console.log(buttons);
 
+let selection = index.html;
+
 for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", function() {
-    const player = buttons[i].innerHTML;
-    const robot = buttons[Math.floor(Math.random() * buttons.length)].innerHTML;
+  buttons[i].addEventListener("click", function()) {
+    let player = buttons[i].selection;
+    let robot = buttons[Math.floor(Math.random() * buttons.length)].selection;
     let result = "";
     
     if (player === robot) {
