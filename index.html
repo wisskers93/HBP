@@ -18,15 +18,15 @@
   <div id="mainFrameOne" class="images">
     
     <div class="hunter">
-    	<button onclick="myFunction()"><img class="img" src= "https://previews.123rf.com/images/saphatthachat/saphatthachat1805/saphatthachat180500171/102007681-vector-pixel-art-hunter-isolated-cartoon.jpg"></button>
+    	<button onclick="hunterFunction()"><img class="img" src= "https://previews.123rf.com/images/saphatthachat/saphatthachat1805/saphatthachat180500171/102007681-vector-pixel-art-hunter-isolated-cartoon.jpg"></button>
     	<h4>Hunter</h4>
     </div>
     <div class="bear">
-    	<button onclick="myFunction()"><img class="img" src="http://pixelartmaker.com/art/d2dc9caaef73f10.png"></button>
+    	<button onclick="bearFunction()"><img class="img" src="http://pixelartmaker.com/art/d2dc9caaef73f10.png"></button>
     	<h4>Bear</h4>
     </div>
     <div class="princess">
-    	<button onclick="myFunction()"><img class="img" src="/HBP/src imgs/pixel-art-princess-vector-19072212.jpg"></button>
+    	<button onclick="princessFunction()"><img class="img" src="/HBP/src imgs/pixel-art-princess-vector-19072212.jpg"></button>
 		<h4>Princess</h4>
     </div>
   </div>
@@ -50,9 +50,22 @@ function myFunction() {
 	document.getElementById("headertext1").style.display="none";
 	document.getElementById("mainFrameTwo").style.display="block"; 
 	document.getElementById("headertext2").style.display="block";
-	document.getElementById("player").innerHTML =player.innerHTML;
-	document.getElementById("robot").innerHTML =robot.innerHTML;
-	document.getElementById("result").innerHTML =result.innerHTML;
+}
+	
+function hunterFunction(){
+	document.getElementById("player").innerHTML =value1.innerHTML;
+	document.getElementById("robot").innerHTML =value2.innerHTML;
+	document.getElementById("result").innerHTML =resultVar.innerHTML;
+}
+function bearFunction(){
+	document.getElementById("player").innerHTML =value1.innerHTML;
+	document.getElementById("robot").innerHTML =value2.innerHTML;
+	document.getElementById("result").innerHTML =resultVar.innerHTML;
+}
+function princessFunction(){
+	document.getElementById("player").innerHTML =value1.innerHTML;
+	document.getElementById("robot").innerHTML =value2.innerHTML;
+	document.getElementById("result").innerHTML =resultVar.innerHTML;
 }
 </script>
 </body>
