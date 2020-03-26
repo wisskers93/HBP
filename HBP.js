@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll("button");
 //console.log(buttons);
 
-let selection = index.html;
+let selection = HBP.html;
 
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function()) {
