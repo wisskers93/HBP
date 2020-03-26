@@ -34,11 +34,9 @@
   display:inline-flex;
   flex-wrap: wrap;
   background-color: white;
-  /*margin: auto 5em 5em 5em;*/
-  /*padding: 2em;*/
   border-radius: 25px;
   border: 2px solid lightgrey;
-  padding: 15px;
+  padding: 20px;
   margin-top: 2em;
       
 }
@@ -66,15 +64,6 @@ h4 {
 	font-family: 'Sigmar One', cursive;
 }
 
-/*#trees {
-	width:100%;
-	overflow-y: hidden;
-	overflow-x: hidden;
-	margin: -8em;
-	padding: -10em;	
-}
-*/
-
 h1 {
 	font-size: 400%;
 	margin: 1em;
@@ -92,10 +81,8 @@ p {
 }
 
 a {
-	/*font-size: 200%;
-	margin-top: 2em;
-	margin-bottom: 1em;*/
-	background-color: #555555; 
+	
+  background-color: #555555; 
   border: none;
   color: white;
   padding: 18px 28px;
