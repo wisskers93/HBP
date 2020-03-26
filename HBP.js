@@ -37,8 +37,8 @@ button1.addEventListener("click", hunterFunction()) {
     }
 
     document.querySelector(".result").innerHTML = 
-      ` ${player} 
-        ${robot} </br></br>
+     ` ${value1} 
+        ${value2} </br></br>
         ${result}`;
   });
     
@@ -70,8 +70,8 @@ button2.addEventListener("click", bearFunction()) {
     }
 
     document.querySelector(".result").innerHTML = 
-      ` ${player} 
-        ${robot} </br></br>
+      ` ${value1} 
+        ${value2} </br></br>
         ${result}`;
   });
 button1.addEventListener("click", princessFunction()) {
