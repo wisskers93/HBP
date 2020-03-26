@@ -32,18 +32,16 @@
   </div>
 
   <div id="mainFrameTwo" style="display:none;" class="resultbox">
-  	 <p> Player: Computer:</p>
-  	 <div class="results">
+	  <p> Player: </p>
+	  <div id="player"> </div>
+	<p>Computer:</p>
+	  <div id="robot"> </div>
+  	 <div id="result">
   	</div>
   </div>
   <div style="display:block;"> 
   	<a href="https://wisskers93.github.io/HBP/" id="headertext2" style="display:none;">Try Again!</a>
   </div>
-
-
-  <!-- <div id="trees">
-	<img src="https://art.pixilart.com/49686bd566577a2.png">
-</div> -->
 
 <script type="text/javascript" src="HBP.JS"></script>
 <script>
@@ -52,6 +50,9 @@ function myFunction() {
 	document.getElementById("headertext1").style.display="none";
 	document.getElementById("mainFrameTwo").style.display="block"; 
 	document.getElementById("headertext2").style.display="block";
+	document.getElementById("player").innerHTML =player;
+	document.getElementById("robot").innerHTML =robot;
+	document.getElementById("result").innerHTML =result;
 }
 </script>
 </body>
