@@ -1,13 +1,12 @@
 const buttons = document.querySelectorAll("button");
-//console.log(buttons);
 
-let selection = HBP.html;
+let selection = index.html;
 
-for (let i = 0; i < buttons.length; i++) {
+for (let i = 0; i < 3; i++) {
   buttons[i].addEventListener("click", function()) {
     let player = buttons[i].selection;
     let robot = buttons[Math.floor(Math.random() * buttons.length)].selection;
-    let result = "";
+    let result;
     
     if (player === robot) {
       result = "Tie!";
@@ -20,11 +19,9 @@ for (let i = 0; i < buttons.length; i++) {
       result = "You Lost!";
     }
 
-    document.querySelector(".results").innerHTML = 
+    document.querySelector(".result").innerHTML = 
       ` ${player} 
         ${robot} </br></br>
-        ${result}
-`;
-    //console.log(`Player : ${player} VS Robot : ${robot}`);
+        ${result}`;
   });
 }
