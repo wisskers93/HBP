@@ -16,7 +16,7 @@
 }
 .img {
   height: 100px;
-  width 100px;
+  width: 100px;
   margin: 2em 2em 0em 2em;
   animation-play-state: paused; 
 }
