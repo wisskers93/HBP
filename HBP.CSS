@@ -21,8 +21,15 @@
   animation-play-state: paused; 
 }
 
+.imgPrincess{
+  height: 120px;
+  width: 100px;
+  margin: .5em 2em 0em 2em;
+  animation-play-state: paused; 
+}
 
-.img:hover {
+
+.img:hover, .imgPrincess:hover {
   /* Toggle our animation play state to running when we are hovering over our sticker */
   animation-play-state: running;
   animation: bounce .25s infinite alternate;
