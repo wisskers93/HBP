@@ -58,15 +58,15 @@ function resultsPage2() {
   let robot = Math.floor(Math.random()*3)+1; 
     switch(robot){
       case(1):
-        result = "You Lost!";
+        document.getElementById("result").textContent = "You Lost!";
         document.getElementById("imgRobot").src = "https://previews.123rf.com/images/saphatthachat/saphatthachat1805/saphatthachat180500171/102007681-vector-pixel-art-hunter-isolated-cartoon.jpg";
         break;
       case(2):
-        result = "Tie!";
+        document.getElementById("result").textContent = "Tie!";
         document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/d2dc9caaef73f10.png";
         break;
       case(3):
-        result = "You Won!"
+        document.getElementById("result").textContent = "You Won!";
         document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/7a40d068e7d71de.png";
         break;
     }
@@ -84,15 +84,15 @@ function resultsPage3() {
   let robot = Math.floor(Math.random()*3)+1; 
     switch(robot){
       case(1):
-        result = "You Won!";
+        document.getElementById("result").textContent = "You Won!";
         document.getElementById("imgRobot").src = "https://previews.123rf.com/images/saphatthachat/saphatthachat1805/saphatthachat180500171/102007681-vector-pixel-art-hunter-isolated-cartoon.jpg";
         break;
       case(2):
-        result = "You Lost!";
+        document.getElementById("result").textContent = "You Lost!";
         document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/d2dc9caaef73f10.png";
         break;
       case(3):
-        result = "Tie!"
+        document.getElementById("result").textContent = "Tie!";
         document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/7a40d068e7d71de.png";
         break;
     }
