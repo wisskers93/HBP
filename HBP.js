@@ -13,7 +13,11 @@ button3.addEventListener("click", resultsPage3);
 let revert = document.querySelector("#revert");
 revert.addEventListener("click", revertPage);
 
-
+let result = {
+  win: "You Won!",
+  lose: "You Lost!",
+  tie: "Tie!"
+};
 
 
 function resultsPage1() { 
@@ -28,15 +32,15 @@ function resultsPage1() {
   let robot = Math.floor(Math.random()*3)+1; 
     switch(robot){
       case(1):
-        result = "Tie!";
+        document.getElementById("result").textContent = "Tie!";
         document.getElementById("imgRobot").src = "https://previews.123rf.com/images/saphatthachat/saphatthachat1805/saphatthachat180500171/102007681-vector-pixel-art-hunter-isolated-cartoon.jpg";
         break;
       case(2):
-        result = "You Won!";
+        document.getElementById("result").textContent = "You Won!";
         document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/d2dc9caaef73f10.png";
         break;
       case(3):
-        result = "You Lost!"
+        document.getElementById("result").textContent = "You Lost!";
         document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/7a40d068e7d71de.png";
         break;
     }
