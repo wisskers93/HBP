@@ -37,11 +37,11 @@ function resultsPage1() {
         break;
       case(2):
         document.getElementById("result").textContent = "You Won!";
-        document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/d2dc9caaef73f10.png";
+        document.getElementById("imgRobot").src = "src imgs/Bear.png";
         break;
       case(3):
         document.getElementById("result").textContent = "You Lost!";
-        document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/7a40d068e7d71de.png";
+        document.getElementById("imgRobot").src = "src imgs/princess.png";
         break;
     }
 }
@@ -53,7 +53,7 @@ function resultsPage2() {
   document.getElementById("revert").style.display="block";
 
   
-  document.getElementById("imgPlayer").src = "http://pixelartmaker.com/art/d2dc9caaef73f10.png";
+  document.getElementById("imgPlayer").src = "src imgs/Bear.png";
   
   let robot = Math.floor(Math.random()*3)+1; 
     switch(robot){
@@ -63,11 +63,11 @@ function resultsPage2() {
         break;
       case(2):
         document.getElementById("result").textContent = "Tie!";
-        document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/d2dc9caaef73f10.png";
+        document.getElementById("imgRobot").src = "src imgs/Bear.png";
         break;
       case(3):
         document.getElementById("result").textContent = "You Won!";
-        document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/7a40d068e7d71de.png";
+        document.getElementById("imgRobot").src = "src imgs/princess.png";
         break;
     }
 }
@@ -79,7 +79,7 @@ function resultsPage3() {
   document.getElementById("revert").style.display="block";
 
   
-  document.getElementById("imgPlayer").src = "http://pixelartmaker.com/art/7a40d068e7d71de.png";
+  document.getElementById("imgPlayer").src = "src imgs/princess.png";
   
   let robot = Math.floor(Math.random()*3)+1; 
     switch(robot){
@@ -89,11 +89,11 @@ function resultsPage3() {
         break;
       case(2):
         document.getElementById("result").textContent = "You Lost!";
-        document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/d2dc9caaef73f10.png";
+        document.getElementById("imgRobot").src = "src imgs/Bear.png";
         break;
       case(3):
         document.getElementById("result").textContent = "Tie!";
-        document.getElementById("imgRobot").src = "http://pixelartmaker.com/art/7a40d068e7d71de.png";
+        document.getElementById("imgRobot").src = "src imgs/princess.png";
         break;
     }
 }
